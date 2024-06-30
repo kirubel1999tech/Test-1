@@ -3,7 +3,7 @@
     <head>
         <!--<script src="Test.js"></script>-->
         <!--<link rel="stylesheet" href="Test.css">-->
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>kirubel Yonas</title>
         <style>
             @import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
@@ -307,6 +307,16 @@ header {
     width: 100%; //The width is 100%, when the viewport is 800px or smaller 
   }
 } */
+@media (min-width: 600px) {
+  body {
+    width: 100%;
+  }
+}
+@media (max-width: 20000px) {
+  .column {
+    width: 100%;
+  }
+}
         </style>
         <script>
             // Fill polyfill
